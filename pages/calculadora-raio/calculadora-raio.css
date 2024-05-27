@@ -23,27 +23,45 @@ body {
     gap: 40px;
 }
 
-nav {
+main {
     background-color: var(--nav-background);
     width: fit-content;
-    padding: 16px;
-    border-radius: 24px;
+    padding: 20px;
 }
 
-ul,li {
-    list-style: none;
+button{
+    width: 100%;
+    padding: 7px;
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 800;
+button:hover {
+    background-color:var(--a-hover);
 }
 
-a:hover {
-    display: block;
-    color:var(--a-hover);
-    transform: scale(1.1);
-    transition: transform .3s;
+
+header {
+    text-align: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    margin-bottom: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
